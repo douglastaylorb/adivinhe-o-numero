@@ -31,6 +31,7 @@ function verificaValorValido(chute) {
         <h3>O número secreto era: ${numeroSecreto}</h3>
         <button id="jogar-novamente" class="btn-jogar"> Jogar Novamente </button>
         `
+        recognition.addEventListener('end', () => recognition.stop())
     } else if (numero > numeroSecreto) {
         elementoChute.innerHTML += `
         <div> O número secreto é menor <i class="fa-solid fa-down-long"></i></div>
