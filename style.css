@@ -87,11 +87,19 @@ footer {
 .rodape p {
     margin-bottom: 0;
 }
-/*
+
 @media (max-width: 678px) {
-    footer {
-        display: none;
-    }
+   .conteudo h1 {
+    font-size: 2.5em;
+}
+
+.conteudo h2 {
+    font-size: 2.5em;
+}
+
+.conteudo h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
     
 }
-*/
