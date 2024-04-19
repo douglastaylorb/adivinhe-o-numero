@@ -6,6 +6,13 @@ function gerarNumeroAleatorio() {
     return parseInt(Math.random() * ( (maiorValor+1) - menorValor ) + menorValor)
 }
 
+window.onload = function() {
+    if (!localStorage.getItem("jaVisitou")) {
+        alert("Seja bem vindo ao número secreto! \n \nINSTRUÇÕES: \nPara jogar, basta permitir o acesso do navegador ao microfone e chutar os números :)");
+        localStorage.setItem("jaVisitou", true);
+    }
+}
+
 // console.log('Número secreto: ', numeroSecreto)
 
 const elementoMenorValor = document.getElementById('menor-valor')
