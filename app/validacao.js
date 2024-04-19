@@ -9,6 +9,7 @@ function verificaValorValido(chute) {
         <h3>Clique no botão para jogar novamente</h3>
         <button id="jogar-novamente" class="btn-jogar"> Jogar Novamente </button>
         `
+        document.body.style.backgroundImage = "none";
         document.body.style.backgroundColor = "black";
     }
 

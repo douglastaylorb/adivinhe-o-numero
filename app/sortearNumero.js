@@ -8,7 +8,7 @@ function gerarNumeroAleatorio() {
 
 window.onload = function() {
     if (!localStorage.getItem("jaVisitou")) {
-        alert("Seja bem vindo ao número secreto! \n \nINSTRUÇÕES: \nPara jogar, basta permitir o acesso do navegador ao microfone e chutar os números :)");
+        alert("Seja bem vindo ao número secreto! \n \nINSTRUÇÕES: \nPara jogar, basta permitir o acesso do navegador ao microfone e chutar os números :) \n \nPara desistir e saber qual era o número, diga: game over. \n \nBom jogo! ;)");
         localStorage.setItem("jaVisitou", true);
     }
 }

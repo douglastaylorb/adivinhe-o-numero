@@ -8,6 +8,7 @@
 }
 
 body {
+    background-image: linear-gradient(rgba(32, 42, 62, 0.99), rgba(32, 42, 62, 0.99)), url('img/fundo.png');
     background-color: var(--bg-color);
     color: var(--primary-color);
     min-height: 100vh;
@@ -54,4 +55,25 @@ h3 {
     margin-top: 20px;
     color: var(--bg-color);
 
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+}
+
+.rodape{
+    padding: 0.2em 0;
+}
+
+.rodape p {
+    margin-bottom: 0;
 }
